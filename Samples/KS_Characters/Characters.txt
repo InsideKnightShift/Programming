@@ -1,0 +1,247 @@
+//	attributes mipmap, mipmap_nearest, mipmap_box2, mipmap_edges, mipmap_edges2, mipmap_edges8, sharp2, sharp4
+
+texture
+{
+	input s:\data\graphic\3dobjects\characters\queenclone.bmp
+//	input s:\data\graphic\3dobjects\characters\giant.bmp
+//	input s:\data\graphic\3dobjects\characters\gatekeeper.bmp
+//	input s:\data\graphic\3dobjects\characters\monsterqueen.bmp
+//	input s:\data\graphic\3dobjects\characters\arenamonster*.bmp
+	structure c1,l1,m1
+	line0 *
+	break 1,1
+	attributes mipmap
+	output s:\game\textures
+//	output s:\game\textures
+//	output s:\game\textures
+//	output s:\game\textures
+//	output s:\game\textures
+}
+
+/*texture
+{
+	input s:\data\graphic\3dobjects\characters\LABRADOR.BMP			
+	input s:\data\graphic\3dobjects\characters\KNIGHTGHOST.BMP			
+	input s:\data\graphic\3dobjects\characters\HERO.BMP			
+	input s:\data\graphic\3dobjects\characters\BANDIT_SPEARMAN.BMP			
+	input s:\data\graphic\3dobjects\characters\BANDIT_HUNTER.BMP			
+	input s:\data\graphic\3dobjects\characters\BANDIT_FOOTMAN.BMP			
+	input s:\data\graphic\3dobjects\characters\SHOP_WOODCUTTER.BMP			
+	input s:\data\graphic\3dobjects\characters\SHOP_HUNTER.BMP			
+	input s:\data\graphic\3dobjects\characters\SHOP_SORCERER.BMP			
+	input s:\data\graphic\3dobjects\characters\SHOP_PRIEST.BMP
+	input s:\data\graphic\3dobjects\characters\SHOP_SPEARMAN.BMP
+	input s:\data\graphic\3dobjects\characters\SHOP_DIPLOMAT.BMP
+	input s:\data\graphic\3dobjects\characters\kosciej.bmp
+	input s:\data\graphic\3dobjects\characters\ringleader.bmp
+	input s:\data\graphic\3dobjects\characters\princess.bmp
+	input s:\data\graphic\3dobjects\characters\giant_2.bmp
+	input s:\data\graphic\3dobjects\characters\giant_3.bmp
+	input s:\data\graphic\3dobjects\characters\giantegg.bmp
+	input s:\data\graphic\3dobjects\characters\giant_weap.bmp
+	input s:\data\graphic\3dobjects\characters\giant_weap2.bmp
+	input s:\data\graphic\3dobjects\characters\skeleton.bmp
+	input s:\data\graphic\3dobjects\characters\skeleton_h.bmp
+	input s:\data\graphic\3dobjects\characters\skeleton_hRed.bmp
+	input s:\data\graphic\3dobjects\characters\skeleton_hBright.bmp
+	input s:\data\graphic\3dobjects\characters\shephair.bmp
+	input s:\data\graphic\3dobjects\characters\darkpriest.bmp
+	input s:\data\graphic\3dobjects\characters\darkpriest2.bmp
+	input s:\data\graphic\3dobjects\characters\darkpriest3.bmp
+	input s:\data\graphic\3dobjects\characters\darkSORCERER.bmp
+	input s:\data\graphic\3dobjects\characters\darkSORCERER2.bmp
+	input s:\data\graphic\3dobjects\characters\darkSORCERER3.bmp
+	input s:\data\graphic\3dobjects\characters\wolf.bmp
+	input s:\data\graphic\3dobjects\characters\blackwolf.bmp
+	input s:\data\graphic\3dobjects\characters\whitewolf.bmp
+	input s:\data\graphic\3dobjects\characters\magicwolf.bmp
+	input s:\data\graphic\3dobjects\characters\hellwolf1.bmp
+	input s:\data\graphic\3dobjects\characters\hellwolf2.bmp
+	input s:\data\graphic\3dobjects\characters\hellwolf3.bmp
+	input s:\data\graphic\3dobjects\characters\hellwolf4.bmp
+	input s:\data\graphic\3dobjects\characters\bear.bmp
+	input s:\data\graphic\3dobjects\characters\whitebear.bmp
+	input s:\data\graphic\3dobjects\characters\blackbear.bmp
+	input s:\data\graphic\3dobjects\characters\Magicbear.bmp
+	input s:\data\graphic\3dobjects\characters\necrom.bmp
+	input s:\data\graphic\3dobjects\characters\monster.bmp
+	input s:\data\graphic\3dobjects\characters\monster2.bmp
+	input s:\data\graphic\3dobjects\characters\monster3.bmp
+	input s:\data\graphic\3dobjects\characters\monster4.bmp
+	input s:\data\graphic\3dobjects\characters\unicorn.bmp
+	input s:\data\graphic\3dobjects\characters\igor.bmp
+	input s:\data\graphic\3dobjects\characters\igor2.bmp
+	input s:\data\graphic\3dobjects\characters\igor3.bmp
+	input s:\data\graphic\3dobjects\characters\igor4.bmp
+	input s:\data\graphic\3dobjects\characters\werewolf.bmp
+	input s:\data\graphic\3dobjects\characters\werewolf2.bmp
+	input s:\data\graphic\3dobjects\characters\werewolf3.bmp
+	input s:\data\graphic\3dobjects\characters\werewolf4.bmp
+	input s:\data\graphic\3dobjects\characters\minotaur.bmp
+	input s:\data\graphic\3dobjects\characters\minotaur2.bmp
+	input s:\data\graphic\3dobjects\characters\minotaur3.bmp
+	input s:\data\graphic\3dobjects\characters\minotaur4.bmp
+	input s:\data\graphic\3dobjects\characters\minotaur5.bmp
+	input s:\data\graphic\3dobjects\characters\dragon_1.bmp
+	input s:\data\graphic\3dobjects\characters\dragon_2.bmp
+	input s:\data\graphic\3dobjects\characters\hero.bmp
+	input s:\data\graphic\3dobjects\characters\dobromir.bmp
+	input s:\data\graphic\3dobjects\characters\queen.bmp
+	input s:\data\graphic\3dobjects\characters\Queen'sCrown.bmp
+	structure c1,l1,m1
+	line0 *
+	break 1,1
+	attributes mipmap
+//	attributes mipmap, mipmap_nearest
+	output s:\game\textures
+	output s:\game\textures
+	output s:\game\textures
+	output s:\game\textures
+	output s:\game\textures
+	output s:\game\textures
+	output s:\game\textures
+	output s:\game\textures
+	output s:\game\textures
+	output s:\game\textures
+	output s:\game\textures
+	output s:\game\textures
+	output s:\game\textures
+	output s:\game\textures
+	output s:\game\textures
+	output s:\game\textures
+	output s:\game\textures
+	output s:\game\textures
+	output s:\game\textures
+	output s:\game\textures
+	output s:\game\textures
+	output s:\game\textures
+	output s:\game\textures
+	output s:\game\textures
+	output s:\game\textures
+	output s:\game\textures
+	output s:\game\textures
+	output s:\game\textures
+	output s:\game\textures
+	output s:\game\textures
+	output s:\game\textures
+	output s:\game\textures
+	output s:\game\textures
+	output s:\game\textures
+	output s:\game\textures
+	output s:\game\textures
+	output s:\game\textures
+	output s:\game\textures
+	output s:\game\textures
+	output s:\game\textures
+	output s:\game\textures
+	output s:\game\textures
+	output s:\game\textures
+	output s:\game\textures
+	output s:\game\textures
+	output s:\game\textures
+	output s:\game\textures
+	output s:\game\textures
+	output s:\game\textures
+	output s:\game\textures
+	output s:\game\textures
+	output s:\game\textures
+	output s:\game\textures
+	output s:\game\textures
+	output s:\game\textures
+	output s:\game\textures
+	output s:\game\textures
+	output s:\game\textures
+	output s:\game\textures
+	output s:\game\textures
+	output s:\game\textures
+	output s:\game\textures
+	output s:\game\textures
+	output s:\game\textures
+	output s:\game\textures
+	output s:\game\textures
+	output s:\game\textures
+	output s:\game\textures
+}
+texture
+{
+	input s:\data\graphic\3dobjects\characters\Bandit.bmp
+	structure c2,l1,m1
+	line0 *,*_v1
+	break 1,1
+	attributes mipmap
+	output s:\game\textures
+}
+
+texture
+{
+	input s:\data\graphic\3dobjects\characters\cow.bmp
+	structure c4,l1,m1
+	line0 *,*_v1,*_v2,*_v3
+	break 1,1
+	attributes mipmap
+	output s:\game\textures
+}
+
+texture
+{
+	input s:\data\graphic\3dobjects\characters\fish.bmp
+	input s:\data\graphic\3dobjects\characters\mieszko.bmp
+	structure c1,l1,m1
+	line0 *
+	break 1,1
+	attributes mipmap, specular180
+//	attributes mipmap, mipmap_nearest,specular180
+	output s:\game\textures
+	output s:\game\textures
+}
+       
+texture
+{
+	input s:\data\graphic\3dobjects\characters\oldwitch.tga
+	input s:\data\graphic\3dobjects\characters\oldwitch2.tga
+	input s:\data\graphic\3dobjects\characters\oldwitch3.tga
+	input s:\data\graphic\3dobjects\characters\oldwitch4.tga
+	input s:\data\graphic\3dobjects\characters\werewolf_alpha.tga
+	input s:\data\graphic\3dobjects\characters\monster_alpha.tga
+	input s:\data\graphic\3dobjects\characters\monster2_alpha.tga
+	input s:\data\graphic\3dobjects\characters\monster3_alpha.tga
+	input s:\data\graphic\3dobjects\characters\monster4_alpha.tga
+	input s:\data\graphic\3dobjects\characters\skeleton_alpha.tga
+	input s:\data\graphic\3dobjects\characters\skeletonNEW.tga
+	input s:\data\graphic\3dobjects\characters\skeletonNEWBlack.tga
+	input s:\data\graphic\3dobjects\characters\skeletonNEWRed.tga
+	input s:\data\graphic\3dobjects\characters\necro2.tga
+	input s:\data\graphic\3dobjects\characters\dragon_3.tga
+	structure c1,l1,m1
+	line0 *
+	break 1,1
+	attributes mipmap, alpha, onebitalpha
+//	attributes mipmap, mipmap_nearest,alpha, onebitalpha
+	output s:\game\textures
+	output s:\game\textures
+	output s:\game\textures
+	output s:\game\textures
+	output s:\game\textures
+	output s:\game\textures
+	output s:\game\textures
+	output s:\game\textures
+	output s:\game\textures
+	output s:\game\textures
+	output s:\game\textures
+	output s:\game\textures
+	output s:\game\textures
+	output s:\game\textures
+	output s:\game\textures
+}
+
+texture
+{
+	input s:\data\graphic\3dobjects\characters\shining_stones.bmp
+	structure c1,l1,m1
+	line0 *
+	break 1,1
+	attributes mipmap,selfilluminated
+	output s:\game\textures
+}
+
+*/
